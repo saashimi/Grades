@@ -51,11 +51,5 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Grades.Tests\Grades.Tests.csproj">
-      <Project>{bda964f6-2fe2-409c-b09e-13a7b25c6c27}</Project>
-      <Name>Grades.Tests</Name>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
